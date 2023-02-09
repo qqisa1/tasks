@@ -12,13 +12,11 @@ console.log(cube(10));
    name (например, «Василий») и выводить строку (в нашем случае «Привет, Василий»).
    В случае отсутствующего параметра выводить «Привет, гость»*/
 
-let name = prompt('What is your name?');
-function getName() {
-    if (name === 'ikram')
-    {
-        alert("Привет, " + name);
-    }else {
-        alert("Привет, гость");
-    }
-}
-getName();
+ function getName(userName = 'гость') {
+    console.log(`Привет, ${userName}`);
+ }
+
+ const name = 'икрам';
+
+ getName(name);
+

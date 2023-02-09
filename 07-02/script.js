@@ -14,7 +14,7 @@ console.log(cube(10));
 
 let name = prompt('What is your name?');
 function getName() {
-    if (name === 'Stalin')
+    if (name === 'ikram')
     {
         alert("Привет, " + name);
     }else {

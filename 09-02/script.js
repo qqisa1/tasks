@@ -34,9 +34,13 @@ function DoubleValue() {
    const data = [1, 2, 3];
    myFunc(data);  // [3, 2, 1];*/
 
- function revers(users = ['Max', 'Samir', 'Ulan']) {
+ function revers(users = ['wer', 'ali', 'git']) {
      let reversed = users.reverse();
      console.log('reversed', reversed);
  }
 
  revers();
+
+ function reverse () {
+
+ }

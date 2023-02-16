@@ -34,16 +34,18 @@
    const data = [1, 2, 3];
    myFunc(data);  // [3, 2, 1];*/
 
+function reverseArray(data) {
+    let array = [];
 
-
-
-let arr = [ 1, 2, 3,];
-function reverse() {
-    for (let i = arr.length - 1; i >= 0; i--) {
-        console.log(arr[i]);
+    for(let i = data.length - 1; i >= 0; i--){
+        array.push(data[i]);
     }
+
+    return array;
 }
 
-reverse();
+const numbers = [1, 2, 3, 4];
 
+let result1 = reverseArray(numbers);
 
+console.log(result1);

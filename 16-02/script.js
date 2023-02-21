@@ -9,7 +9,7 @@ let result = 0;
 if(year_born < year_world){
     result = year_world - year_born;
 }
-alert(`you ${result} year`);
+alert(`вам ${result} лет`);
 
 
 /*2) Напишите функцию, которая возвращает объект,

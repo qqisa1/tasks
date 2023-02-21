@@ -7,8 +7,7 @@
 let count = 0;
 while (true) {
     let num = parseInt(prompt("Введите число:"));
-    if (num === 99) {
-        break;
+
     }
     count++;
 }

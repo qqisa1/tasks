@@ -1,4 +1,4 @@
-const   hello = (mes) =>{
+const hello = (mes) =>{
     alert(mes);
 }
 setTimeout(hello, 4000, 'Hello 4');
